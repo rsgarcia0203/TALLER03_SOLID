@@ -1,7 +1,7 @@
 # TALLER03_SOLID
 
-1.-	Clases Helado y Pastel. Tienen mucha similitud, se debería crear una clase padre llamada Postre.
-    Si, ya que todos los atributos de ambas clases son los mismos y algunos métodos también, así optimizamos nuestro código.
+1.-	Clases Helado y Pastel violan el principio de responsabilidad unica debido a que los metodos que tienen pueden ser implementados por una clase padre. La solucion es crear una clase padre llamada Postre.
+ya que todos los atributos de ambas clases son los mismos y algunos métodos también, así optimizamos nuestro código.
 
 
 2.- La clase OperacionesAderezo no es necesaria, ya que todos los métodos que están en la clase deberían de pertenecer a la clase Postre, ya que se le estarían agregando objetos a una colección de sus atributos y esta es la clase padre de los demás postres. Este punto violaba el Interface Segretation Principle (ISP) (Principio de segregación de interfaz), ya que los usuarios dependerian de una clase que no utilizarán.
