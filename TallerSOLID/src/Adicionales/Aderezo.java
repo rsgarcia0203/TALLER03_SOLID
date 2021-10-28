@@ -10,12 +10,10 @@ package Adicionales;
  * @author Pedro Mendoza
  */
 public abstract class Aderezo {
-    private String nombreAderezo;
-    public void setNombreAderezo(String nombreAderezo) {
-        this.nombreAderezo = nombreAderezo;
-    }
-    public String toString(){
-        return nombreAderezo.toUpperCase();
-    }
+    protected String nombreAderezo;
+    public abstract void setNombreAderezo(String nombreAderezo); 
+    public abstract String toString();
+        
     
 }
+
