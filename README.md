@@ -1,6 +1,6 @@
 # TALLER03_SOLID
 
-1.-	Clases Helado y Pastel violan el principio de responsabilidad unica debido a que los metodos que tienen pueden ser implementados por una clase padre. La solucion es crear una clase padre llamada Postre.
+1.-	Clases Helado y Pastel violan el Single Responsability Principle (SRP) (Principio de responsabilidad única) debido a que los metodos que tienen pueden ser implementados por una clase padre. La solucion es crear una clase padre llamada Postre.
 ya que todos los atributos de ambas clases son los mismos y algunos métodos también, así optimizamos nuestro código.
 
 
